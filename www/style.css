@@ -1,0 +1,147 @@
+
+body, div, td, span, h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+a {
+  color: blue;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #036;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+td, th {
+  text-align: left;
+  vertical-align: top;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6em;
+  margin: .8em 0 0 0;
+  color: #def;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2em;
+  margin: .1em;
+}
+
+.box {
+  border-width: .2em;
+  border-color: #369 #036 #369 #036;
+  border-style: solid;
+  background-color: #ace;
+  padding: .8em;
+}
+
+.box td, .box th {
+  padding: .4em;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.box {
+  margin: .8em auto 0 auto;
+}
+
+.infobox th {
+  text-align: right;
+  padding-right: 1.5em;
+}
+
+.error {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  border-width: .2em;
+  border-color: #833;
+  border-style: solid;
+  background-color: #fda;
+  padding: .8em;
+}
+
+input {
+  width: 240px;
+}
+
+input.chk {
+  width: auto;
+}
+
+textarea {
+  width: 240px;
+  height: 80px;
+  text-align: left;
+}
+
+input.btn {
+  height: 3em;
+}
+
+.header {
+  width: 100%;
+  border-style: solid;
+  border-color: #012;
+  border-width: 0 0 .2em 0;
+}
+
+.header .hello {
+  text-align: left;
+  vertical-align: bottom;
+  color: #def;
+}
+
+.header .signOut a {
+  color: #def;
+}
+
+.header .signOut {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.header .tab, .header .tabSelected {
+  text-align: center;
+  vertical-align: middle;
+  width: 8em;
+  border-style: solid;
+  border-color: #012;
+  border-width: .2em .2em 0 .2em;
+  background-color: #ace;
+  padding: .4em .1em .4em .1em;
+}
+
+.header .tabSelected {
+  font-weight: bold;
+}
+
+.header .tabSelected a {
+  color: black;
+  text-decoration: none;
+}
+
+.header .tabSpace {
+  width: .4em;
+}
+
+td.submitCell {
+  text-align: center;
+  padding-top: 2em;
+}
+

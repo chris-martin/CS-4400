@@ -1,0 +1,25 @@
+@import "style.css";
+
+body {
+  padding-top: 8em;
+}
+
+table {
+  margin: 2em auto 0 auto;
+}
+
+td {
+  vertical-align: top;
+}
+
+.middleSpace {
+  width: 2em;
+}
+
+.box {
+  width: 15em;
+  height: 15em;
+  text-align: center;
+  vertical-align: middle;
+}
+
