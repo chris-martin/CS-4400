@@ -1,4 +1,4 @@
-# CS 4400 - Intro to Database Systems
+# CS 4400 - Intro to Database Systems - Spring 2008
 
 ## Database build scripts
 
